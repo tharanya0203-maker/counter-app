@@ -1,0 +1,43 @@
+/* Reset default browser styles */
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff3b0; /* matches app background */
+}
+.running-icon {
+  font-size: 70px;
+  color: #000;
+}
+
+.icon-box svg {
+  color: white;
+  font-size: 18px;
+}
+.round-icon {
+  position: absolute;
+  top: 120px;               /* adjust if needed */
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 160px;
+  height: 160px;
+  background-color: #f5f5f5;
+  border: 6px solid #222;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 10;
+}
+.running-icon {
+  font-size: 80px;
+  color: black;
+}
